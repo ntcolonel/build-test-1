@@ -1,0 +1,5 @@
+language: shell
+os: windows
+
+script:
+  - "MSBuild.exe build-test-1.sln"
